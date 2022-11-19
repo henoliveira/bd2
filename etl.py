@@ -182,10 +182,10 @@ def load_full_database():
     load_artwork_types()
     load_categories()
     load_artists()
-    # load_artworks()
+    load_artworks()
 
 
 if __name__ == "__main__":
+    load_full_database()
     # load_galleries()
-    # load_full_database()
-    load_artworks()
+    # load_artworks()
